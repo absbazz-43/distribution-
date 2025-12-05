@@ -4,9 +4,9 @@ library(dplyr)
 library(gridExtra)
 library(RColorBrewer)
 
-if (interactive()) {
 
-  ui <- fluidPage(
+
+ui <- fluidPage(
 
     titlePanel("Statistical Distribution Explorer & Sample Size Calculator"),
     br(),
@@ -857,6 +857,7 @@ if (interactive()) {
 
   }
 
-  shinyApp(ui, server)
+shinyApp(ui = ui, server = server)
 
-}
+
+

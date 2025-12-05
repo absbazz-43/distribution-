@@ -1,0 +1,10 @@
+name: distribution-checker
+title: Statistical Distribution Explorer
+username: absbazz-43
+account: absbazz-43
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16248209
+bundleId: 11279901
+url: https://absbazz-43.shinyapps.io/distribution-checker/
+version: 1
